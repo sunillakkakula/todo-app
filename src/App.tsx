@@ -22,7 +22,7 @@ const todoDeleteHandler = (taskid:number)=>{
 
   return (
     <div className='container'>
-      TODOS App : 28-11-2020
+      TODOS App : 28-11-2020 by LSK
       <hr/>
       <NewTodo onAddTodoTask ={todoAddHandler} />
       <TodoList items={todos} onDeleteTodoTask = {todoDeleteHandler}/>
